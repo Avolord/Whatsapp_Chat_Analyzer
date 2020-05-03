@@ -1,0 +1,35 @@
+{
+	"datePatterns": [
+		{
+			"regex":"^\\d{1,2}\\.\\d{1,2}\\.\\d{2}",
+			"format":"d[d].M[M].yy"
+		},
+		{
+			"regex":"^\\d{1,2}\\.\\d{1,2}\\.\\d{4}",
+			"format":"d[d].M[M].yyyy"
+		},
+		{
+			"regex":"^\\d{1,2}\\/\\d{1,2}\\/\\d{2}",
+			"format":"d[d]/M[M]/yy"
+		},
+		{
+			"regex":"^\\d{1,2}\\/\\d{1,2}\\/\\d{4}",
+			"format":"d[d]/M[M]/yyyy"
+		}
+	],
+	
+	"timePatterns": [
+		{
+			"regex":"\\d{1,2}:\\d{1,2}",
+			"format":"HH:mm"
+		},
+		{
+			"regex":"\\d{1,2}:\\d{1,2} [AP]M",
+			"format":"hh:mm a"
+		},
+		{
+			"regex":"\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M",
+			"format":"hh:mm:ss a"
+		}
+	]
+}
